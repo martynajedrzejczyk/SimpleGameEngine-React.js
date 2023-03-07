@@ -1,0 +1,29 @@
+
+.stone > img {
+    height: 100%;
+}
+
+
+.stone {
+    width: 70%;
+    height: 7%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+
+    background-color: #f0cadd;
+    box-shadow: -5px -5px 30px 5px darkblue, 5px 5px 30px 5px red, -5px -5px 30px 5px red;
+
+}
+
+.stone > p {
+    height: 7px;
+    font-size: 16px;
+}
+
